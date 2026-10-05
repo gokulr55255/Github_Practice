@@ -4,9 +4,9 @@ on: workflow_dispatch
 
 jobs:
   print:
-    runs-on: ubntu-latest
+    runs-on: ubuntu-latest
     steps:
-      name: single line print
-      run: echo "hello hi"
+      -name: single line print
+       run: echo "hello hi"
       
       
